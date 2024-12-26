@@ -19,7 +19,7 @@ Clone the repository:
    git clone https://github.com/yourusername/AuthSniffer.git  
    cd AuthSniffer  
 ```
-Usage:
+## Usage:
 
 1. Prepare a text file containing your endpoints, one per line (e.g., endpoints.txt).
 2. Run the script:
@@ -33,7 +33,7 @@ python authsniffer.py endpoints.txt
 - [ERROR]: Issues reaching the endpoint (e.g., network errors).
 
 
-Example Output
+## Example Output
 ```
 [UNAUTHENTICATED] https://api.example.com/v1/data is accessible without authentication.  
 [SECURED] https://api.example.com/v1/user requires authentication (Status: 401).  
